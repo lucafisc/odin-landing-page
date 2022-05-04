@@ -41,34 +41,34 @@ h2 {
 }
 
 h3 {
-    color: #edf5e1;
+  color: #edf5e1;
   font-weight: normal;
   font-size: 20px;
   line-height: 22px;
   margin-bottom: 20px;
   z-index: 1;
-
 }
 
 p {
-    color: #05386b;
-    line-height: 16px;
-    text-align: center;
+  color: #05386b;
+  line-height: 16px;
+  text-align: center;
 }
 
 button {
-    padding: 0px 12px;
-    border-radius: 20px;
-    border-style: none;
-    color: #edf5e1;
-    background-color: #05386b;
-    font-weight: 600;
-    font-size: 20px;
-    z-index: 1;
+  padding: 0px 12px;
+  border-radius: 20px;
+  border-style: none;
+  color: #edf5e1;
+  background-color: #05386b;
+  font-weight: 600;
+  font-size: 20px;
+  z-index: 1;
+  min-width: 90px;
 }
 
 button:hover {
-    background-color:#379683 ;
+  background-color: #379683;
 }
 
 .container {
@@ -77,16 +77,17 @@ button:hover {
 }
 
 .navbar,
-.hero {
+.hero,
+.action {
   background-color: #5cdb95;
 }
 
 .info {
-    background-color: #EDF5E1;
+  background-color: #edf5e1;
 }
 
 .quote {
-    background-color: #05386B;
+  background-color: #05386b;
 }
 
 .navbar .container {
@@ -95,7 +96,6 @@ button:hover {
   align-items: center;
   padding: 10px 0px;
 }
-
 
 .hero .container {
   height: 600px;
@@ -122,95 +122,85 @@ button:hover {
 }
 
 .info .container {
-    height: auto;
-    display: flex;
+  height: auto;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .random-info {
-    text-align: center;
-    padding: 50px 0px;
+  text-align: center;
+  padding: 50px 0px;
 }
 
-.info-card{
-    margin: 0px 30px;
-    width: 200px;
-    margin-bottom: 30px;
+.info-card {
+  margin: 0px 30px;
+  width: 200px;
+  margin-bottom: 30px;
 }
 
 .info-box {
-    height: 200px;
-    width: 200px;
-    border: 3px solid #05386b;
-    border-radius: 20px;
-    margin-bottom: 20px;
+  height: 200px;
+  width: 200px;
+  border: 3px solid #05386b;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .quote .container {
-    height: auto;
-    align-items: flex-end;
+  height: auto;
+  align-items: flex-end;
 }
 
 .quote-info {
- color: #edf5e1;
- line-height: 37px;
-font-style: oblique;
-padding: 50px 50px 15px 50px;
+  color: #edf5e1;
+  line-height: 37px;
+  font-style: oblique;
+  padding: 50px 50px 15px 50px;
 }
 
-/*
-
-.hero-image {
-    flex: 1;
-    width: 300px;
-    height: auto;
-    border-radius: 20px;
-
-
+.quote-author {
+  text-align: end;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
 }
 
-
-body {
-    margin: 0px;
-   flex??
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.action .container {
+  height: auto;
+  padding: 80px;
+  display: flex;
 }
 
-
-
-
-
-
-.hero .container{
-  height: 600px;
+.action-box {
+  height: auto;
+  max-width: 700px;
+  background-color: #8ee4af;
+  border-radius: 25px;
+  margin: 0 auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  
+  padding: 30px;
+  gap: 30px;
 }
 
-.hero-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   max-width: 550px;
-   padding: 0 10px;
-   flex: 1;
+.action-text {
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
-
-.navbar,
-.hero,
 footer {
-    background-color: #1F2937;
+    height: auto;
+    background-color: #05386b;
+    text-align: center;
+
+}
+.footer-text {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
 }
 
-
-*/
